@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Estélyi cipő",
+        "desc": "alkalmi cipő hölgyeknek",
+        "price": "11000",
+        "img": "http://keptaram.hu/kt/7/3451/rAPGoCGpduvPbCxVKPvn/piros-szaten-cipo.jpg"
+    },
+    {
+        "name": "Alkalmi cipő",
+        "desc": "erős cipő a hétkoznapokra",
+        "price": "11000",
+        "img": "http://www.lbt.hu/images/pgpic/Kep052_ortoped_cipo_web.jpg"
+    },
+    {
+        "name": "Sportcipő",
+        "desc": "kikapcsolódáshoz",
+        "price": "11000",
+        "img": "http://www.bestlineprotetic.ro/kepek/images/Sziszi.jpg"
+    },
+    {
+        "name": "Motoros cipő",
+        "desc": "véd a sérülésektől",
+        "price": "11000",
+        "img": "http://adamoto.hu/shop_ordered/9949/shop_pic/A0904.jpg"
+    }
+]

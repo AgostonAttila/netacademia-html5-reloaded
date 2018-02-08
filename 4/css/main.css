@@ -1,0 +1,101 @@
+/*
+p.sub-lead {
+    text-decoration: : underline;
+    font-weight: 700;
+}
+
+nav ul li a[href='#'] {
+    color: aliceblue;
+    background-color: aqua;
+}
+
+
+szerepel e a navbar a felsorolasban
+
+nav[class~='navbar'] {
+    color: aliceblue;
+    background-color: aqua;
+}
+
+
+
+[class~='navbar'] benne van a classban
+[class|='navbar'] így kezdődik a class  
+[class^='navbar'] szoreszletre keres
+[class$='navbar']  végén van
+
+
+
+
+
+pszeudo szelektor
+
+ha felé viszik az egeret
+
+
+p.sub-lead:hover {
+    font-style: italic;
+}
+*/
+
+.body {}
+
+.btn-facebook {
+    border: none;
+    background-color: #3A5795;
+    color: #f0f0f0;
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.btn-facebook:hover {
+    box-shadow: 0 0 9px black;
+}
+
+.profile-div {
+    position: fixed;
+    left: -100%;
+    opacity: 0;
+}
+
+.profile-div.show {
+    position: relative;
+    animation-name: facebook;
+    animation-duration: 2s;
+    opacity: 1;
+    left: 0;
+}
+
+.profile-div form {
+    width: 50%;
+    margin: 10px auto;
+}
+
+
+/*KexFrames*/
+
+@keyframes facebook {
+    0% {
+        opacity: 0;
+        left -100%;
+        margin-top: 100px;
+    }
+    25% {
+        opacity: 0;
+        left -75%;
+    }
+    50% {
+        opacity: 0;
+        left -50%;
+    }
+    75% {
+        opacity: 0.25;
+        left -25%;
+    }
+    100% {
+        opacity: 1;
+        left 0;
+        margin-top: auto;
+    }
+}

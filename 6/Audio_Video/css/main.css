@@ -1,0 +1,29 @@
+.glyphicon-volume-up,
+glyphicon-pause,
+div.played .glyphicon-play,
+div.muted . glyphicon-volume-up {
+    display: none;
+}
+
+div.played .glyphicon-pause,
+div.muted . glyphicon-volume-off {
+    display: block;
+}
+
+
+/*Video beallitasa*/
+
+.media-handler-div video {
+    max-width: 100%;
+    box-shadow: 0 0 5px black;
+    float: left;
+}
+
+.media-handler-div .col-md-12 video {
+    width: 100%;
+    display: flex;
+}
+
+.video-container {
+    transition: all 0.5s;
+}
